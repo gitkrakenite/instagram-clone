@@ -1,0 +1,94 @@
+.widgets {
+  flex: 0.4;
+  margin-top: 2em;
+}
+
+.widget__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.widget__header .widget__Avatar {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.widget__header p {
+  letter-spacing: 1px;
+  color: black;
+  font-weight: bold;
+}
+.widget__header h5 {
+  color: gray;
+  font-weight: normal;
+  margin-top: 2px;
+}
+
+.widget__header span {
+  cursor: pointer;
+  color: #2a61eb;
+  font-weight: bold;
+}
+
+.widget__midLevel {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.widget__midLevel p {
+  color: gray;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.widget__midLevel span {
+  cursor: pointer;
+}
+
+.widgets__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  top: 85px;
+  position: sticky;
+  z-index: 999;
+}
+
+.widget__avatarTree {
+  display: flex;
+  justify-content: space-between;
+}
+
+.widget__TreeItem {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.widget__TreeItem p {
+  margin-bottom: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.widget__TreeItem span {
+  font-weight: normal;
+  color: gray;
+}
+
+.widget__avatarTree h5 {
+  cursor: pointer;
+  color: #2a61eb;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (max-width: 1400px) {
+  .widgets {
+    display: none;
+  }
+}
